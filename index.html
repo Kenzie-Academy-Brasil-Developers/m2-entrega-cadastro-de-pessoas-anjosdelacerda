@@ -15,7 +15,7 @@
 
 <body>
     <main>
-        <form>
+        <form id="formulario">
             <img src="./assets/img/LOGO.png" alt="Logo" />
             <h2>Cadastro</h2>
 
@@ -47,7 +47,7 @@
             <button id="register-button">Cadastrar</button>
         </form>
     </main>
-    <aside>
+    <aside id="asideCadastrado">
         <h3>Total de cadastrados: <span id="total-alunos"></span></h3>
         <div>
             <select id="cargoOption">
@@ -56,11 +56,12 @@
           <option value="Facilitador">Facilitador</option>
           <option value="Instrutor">Instrutor</option>
         </select>
-            <button id="btn">Pesquisar</button>
+            <button id="btnPesquisa">Pesquisar</button>
         </div>
         <ul id="lista-de-alunos"></ul>
     </aside>
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="dataBase.js"></script> -->
+    <script type="module" src="assets/js/script.js"></script>
 </body>
 
 </html>
